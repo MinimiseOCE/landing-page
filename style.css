@@ -25,3 +25,9 @@ h1 {
     display: flex;
     gap: 20px;
 }
+
+li:hover {
+    opacity: 0.95;
+    transform: scale(1.05); /* Slightly enlarge the button */
+    cursor: pointer;
+}
