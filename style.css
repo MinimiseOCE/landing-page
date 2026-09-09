@@ -6,12 +6,23 @@
 
 body {
     background-color: #1F2937;
-    padding: 0 200px 0 200px;
+    padding: 0 300px 0 300px;
 }
 
 h1 {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+p {
+    color: #E5E7EB;
 }
 
 .header {
@@ -24,6 +35,39 @@ h1 {
 .links {
     display: flex;
     gap: 20px;
+    color:#E5E7EB;
+}
+
+.sign-up {
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    justify-content: stretch;
+    gap: 40px;
+}
+
+.text {
+    flex: 1;
+    min-width: 0;
+}
+
+.castle {
+    flex: 1;
+    width: 100px
+}
+
+.attack {
+    padding: 15px 32px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 12px;
+}
+
+button:hover {
+    opacity: 0.95;
+    transform: scale(1.05); /* Slightly enlarge the button */
+    cursor: pointer;
 }
 
 li:hover {
