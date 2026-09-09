@@ -124,6 +124,39 @@ p {
     text-align: end;
 }
 
+.call-to-action {
+    background-color: white;
+    padding: 50px 300px 50px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bluepart {
+    width: 100%;
+    background-color: #3882F6;
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.sub-title {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.call-to-attack {
+    background-color: #3882F6;
+    border-radius: 16px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
+
 button:hover {
     opacity: 0.95;
     transform: scale(1.05); /* Slightly enlarge the button */
