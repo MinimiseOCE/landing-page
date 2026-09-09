@@ -7,6 +7,7 @@
 body {
     background-color: #1F2937;
     padding: 0;
+    margin: 0;
 }
 
 h1 {
@@ -135,9 +136,10 @@ p {
 .bluepart {
     width: 100%;
     background-color: #3882F6;
-    padding: 50px 100px 50px 100px;
+    padding: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 100px;
     align-items: center;
     border-radius: 16px;
 }
@@ -155,6 +157,13 @@ p {
     color: white;
     border-color: white;
     border-style: solid;
+}
+
+.footer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
